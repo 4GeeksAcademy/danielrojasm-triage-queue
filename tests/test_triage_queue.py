@@ -1,4 +1,4 @@
-"""Tests de TriageQueue y TriageCLI. Ejecutar con: python -m unittest -v"""
+"""Tests de TriageQueue y TriageCLI. Ejecutar desde la raíz del proyecto con: python -m unittest -v"""
 
 import threading
 import unittest

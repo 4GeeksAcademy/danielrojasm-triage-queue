@@ -37,5 +37,5 @@ q.dequeue()     # Luis
 | Archivo                | Contenido                                                     |
 |------------------------|---------------------------------------------------------------|
 | `triage_queue.py`      | `Patient` (dataclass), `TriageQueue` (heap + lock), `TriageCLI` (menú) |
-| `test_triage_queue.py` | Tests de orden, FIFO, casos borde, concurrencia y CLI         |
+| `tests/test_triage_queue.py` | Tests de orden, FIFO, casos borde, concurrencia y CLI         |
 | `DESIGN.md`            | Por qué un heap y cómo se evita el doble procesamiento concurrente |
